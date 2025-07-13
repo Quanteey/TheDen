@@ -753,7 +753,7 @@
         shader: unshaded
   - type: Gun
     selectedMode: FullAuto
-    fireRate: 4
+    fireRate: 20
     availableModes:
       - SemiAuto
       - FullAuto
@@ -771,7 +771,8 @@
   - type: MeleeWeapon
     damage:
       types:
-        Blunt: 6.5
+        Blunt: 10.5
+        Heat: 30
     bluntStaminaDamageFactor: 2.5
     wideAnimationRotation: 180
 
